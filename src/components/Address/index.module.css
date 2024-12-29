@@ -1,0 +1,43 @@
+.addressBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 5px;
+    background-color: orangered;
+    width: 100%;
+    padding-left: 10px;
+    border: 1px solid;
+    border-radius: 12px;
+}
+
+.addressBlock * {
+    font-size: 14px;
+    font-weight: 800;
+    position: relative;
+    padding-left: 15px;
+}
+
+.regionBlock::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: none;
+    border-radius: 50%;
+    background-color: blue;
+    top: 30%;
+    left: 0;
+}
+
+.zipBlock::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: none;
+    border-radius: 50%;
+    background-color: blue;
+    top: 30%;
+    left: 0;
+}

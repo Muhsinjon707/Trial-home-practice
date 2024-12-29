@@ -1,0 +1,16 @@
+.cardsWrapper {
+    display: flex;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    padding: 25px;
+    margin: 50px auto;
+    justify-content: center;
+    gap: 25px;
+    align-content: center;
+}
+
+.heading {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
